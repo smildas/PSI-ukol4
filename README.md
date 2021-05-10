@@ -1,7 +1,7 @@
-#Popis nastavení
+# Popis nastavení
+![mapaSite](https://github.com/smildas/PSI-ukol4/blob/master/mapa.png)
 
-
-##Nastavení jednotlivých prvků
+## Nastavení jednotlivých prvků
 
 ### R1
 
