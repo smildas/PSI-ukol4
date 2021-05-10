@@ -1,4 +1,10 @@
 # Popis nastavení
+
+Jak je vidět na obrázku síť 192.168.123.0/24 byla rozdělena na dva subnety, aby každý subnet co nejlépe odpovídal počtu požadovaných hostů v subnetu.
+
+Subnet 192.168.123.0/27 je určen pro síť kde jsou propojeny počitači ve switchi s routerem R1. Subnet 192.168.123.32/30 slouží pro propojení routeru R1 a R2. 
+Routování je zajišťeno pomocí statických cest. Na routeru R2 je vytvořen NAT v režimu PAT (maškaráráda), tedy všechny zprávy, které směrují za R2 se překládají na ip adresu rozhraní G0/1 na R2.
+
 ![mapaSite](https://github.com/smildas/PSI-ukol4/blob/master/mapa.png)
 
 ## Nastavení jednotlivých prvků
